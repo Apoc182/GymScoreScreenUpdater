@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scorescreen Updater</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <h1 class="text-center mt-5">Scorescreen Updater</h1>
+                <p class="text-center">Please get the scoreboard URL from the address bar and paste it in the box below.</p>
+                <div class="text-center">
+                    <img src="https://i.gzn.jp/img/2018/09/07/chrome-stripping-subdomains/img-snap05827.png" class="img-fluid" alt="Address Bar Location">
+                </div>
+                <form class="mt-5" method="POST">
+                    <div class="form-group">
+                        <label for="url">Enter URL:</label>
+                        <input type="text" class="form-control" id="url" name="url" placeholder="https://example.com">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
